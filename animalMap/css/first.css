@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#back{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background:url(../images/back/background.jpeg);
+	background-size: cover;
+	opacity: 0.45;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow-y:hidden;
+}
+
+#div-1 {
+	width: 35%;
+	height: 65%;
+	padding-left: 0px;
+	border-left-width: 0px;
+	margin-left: 0px;
+	float: left;
+	border-style: ridge;
+	border-width: 6px;
+	border-color: rgb(190,155,121);
+	box-sizing: border-box;
+	/*background-color: #FF0000;*/
+}
+
+#div-2 {
+	width: 40%;
+	height: 65%;
+	float: left;
+	color: rgb(255, 255, 255);
+	overflow: hidden;
+	border-style: ridge;
+	border-width: 6px;
+	border-color: rgb(190,155,121);
+	box-sizing: border-box;
+	/*background-color:#DF00FF;*/
+}
+
+
+
+.anchorBL{
+	display:none;
+}
+
+#Title{
+	width: 25%;
+	height: 6%;
+	float: left;
+}
+
+#div-3 {
+	width: 25%;
+	height: 59%;
+	float: left;
+	overflow-y:auto;
+	border-style: double;
+	border-width: 6px;
+	border-color: rgb(190,155,121);
+	box-sizing: border-box;
+	/* background-color: #00FFF4; */
+}
+
+#div3_image
+{
+	height: 200px;	
+}
+
+img{
+	height: 100%;
+	width:100%;
+	position: relative;
+}
+
+#div-4_0{
+	width: 30%;
+	height: 35%;
+	float: left;
+	border-style: ridge;
+	border-width: 6px;
+	border-color: rgb(190,155,121);
+	box-sizing: border-box;
+	/* background-color: #00FF10; */
+}
+
+#div-4{
+	width: 100%;
+	height: 100%;
+}
+
+
+#div-5_0{
+	width: 30%;
+	height: 35%;
+	float: right;
+	border-style: ridge;
+	border-width: 6px;
+	border-color: rgb(190,155,121);
+	box-sizing: border-box;
+	/* background-color: #FFF000; */
+}
+
+#div-5{
+	width: 100%;
+	height: 100%;
+}
+
+#div-7 {
+	width: 40%;
+	height: 35%;
+	float: left;
+	border-style: ridge;
+	border-width: 6px;
+	border-color: rgb(190,155,121);
+	box-sizing: border-box;
+	/*background-color:#000000;*/
+}
